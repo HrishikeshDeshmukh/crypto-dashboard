@@ -1,0 +1,1025 @@
+/* small screen laptops  */
+
+@media (min-width:992px) and (max-width:1199px) {
+  .header-wrapper {
+    height: 60px;
+  }
+
+  .heading {
+    font-size: 18px;
+  }
+
+  .header-items {
+    gap: 10px;
+  }
+
+  .search-bar-wrap {
+    height: 30px;
+  }
+
+  .input {
+    font-size :12px
+  }
+
+  .icon {
+    font-size: 18px;
+  }
+
+  .icon-notification {
+    font-size: 25px;
+  }
+
+  .profile-wrap {
+    max-width: 40px;
+  max-height: 40px;
+  }
+
+  .logo-wrapper {
+    max-width: 130px;
+  max-height: 80px;
+  margin-top: 24px;
+  }
+
+  .logo-wrapper h2 {
+    font-size: 20px;
+  }
+
+  .nav-item {
+    padding: 0px 22px;
+    font-size: 13x;
+    height: 50px;
+  }
+
+  .nav-item-dropdown {
+    font-size: 12px;
+  }
+
+  .nav-icon { font-size: 20px !important;
+  }
+
+
+
+  /* Dashboard Code  */
+
+  .dashboard-wrapper {
+    transform: translate(24%, 9%);
+  }
+
+  .card-wrapper {
+    height: 85px;
+  }
+
+  .card-icon-body {
+    width: 36px;
+    height: 36px;
+  }
+
+  .card-icon {
+    font-size: 18px;
+  }
+
+  .card-text-wrap h4 {
+    font-size: 11px;
+  }
+
+  .card-text-wrap h2 {
+    font-size: 20px;
+  }
+
+  
+  .profit-head h2 {
+    font-size: 16px;
+  }
+
+  .nav-item h5 {
+    font-size: 13px;
+  }
+
+  .graph-heading h4, 
+  .transaction-heading-wrapper h4,
+  .transaction-information-wrap h3,
+  .chart-heading h4 , input  {
+    font-size: 13px;
+  }
+
+  .transaction-heading-wrapper h5,
+  .transaction-amt h4,
+  .chart-subheading h5,
+  .chart-item h4,
+h6,
+.price span {
+    font-size: 12px;
+  }
+
+  .list-image-wrap {
+    width: 38px;
+    height: 38px;
+  }
+
+  .list-image-wrap img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .transaction-information-wrap h5 {
+    font-size: 10px;
+  }
+
+  .trend-chart-wrap,
+  .profit-wrap,
+  .assets-wrapper {
+    height: 320px;
+  }
+  
+  .assets-information h5, .assets-amt h5 {
+    font-size: 13px;
+  }
+}
+
+
+
+/* Tablet View  */
+
+@media (min-width:836px) and (max-width:991px) {
+  
+  .header-wrapper {
+    height: 50px;
+    width: 95%;
+  }
+
+  .mob-view-menu {
+    top: 12%;
+  }
+
+  .heading {
+    font-size: 16px;
+  }
+
+  .header-items {
+    gap: 8px;
+  }
+
+  .search-bar-wrap {
+    height: 25px;
+  }
+
+  .profile-wrap {
+    max-width: 35px;
+  max-height: 35px;
+  }
+
+  .logo-wrapper h2, .nav-item h5, .down-icon
+  {
+    opacity: 0;
+    display: none;
+  }
+
+  .nav-wrapper {
+    position: fixed;
+    width: auto;
+    z-index: 111;
+    animation: roll 0.4s ease-in-out;
+    transition: all ease-in-out 0.3s;
+  }
+ 
+  .nav-wrapper.active {
+    width: 220px;
+  }
+
+  .logo-wrapper {
+   
+    margin-left: 0;
+  }
+
+
+  .nav-icon {
+    margin-right: 0;
+  }
+
+  .dashboard-wrapper {
+    width: 95%;
+    transform: translate(5%, 7%);
+  }
+
+  
+
+  .mob-view-menu {
+    display: flex;
+  }
+
+  .card-wrapper {
+    height: 85px;
+  }
+
+
+
+  .card-icon-body {
+    width: 36px;
+    height: 36px;
+  }
+
+  .card-icon {
+    font-size: 18px;
+  }
+
+  .card-text-wrap h4 {
+    font-size: 11px;
+  }
+
+  .card-text-wrap h2 {
+    font-size: 17px;
+  }
+
+  .graph-heading h4, 
+  .transaction-heading-wrapper h4,
+  .transaction-information-wrap h3,
+  .chart-heading h4   {
+    font-size: 14px;
+  }
+
+  .transaction-heading-wrapper h5,
+  .transaction-amt h4,
+  .chart-subheading h5,
+  .chart-item h4,
+h6,
+.price span {
+    font-size: 12px;
+  }
+
+  .list-image-wrap {
+    width: 38px;
+    height: 38px;
+  }
+
+  .list-image-wrap img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .transaction-information-wrap h5 {
+    font-size: 10px;
+  }
+
+  .trend-chart-wrap,
+  .profit-wrap,
+  .assets-wrapper {
+    height: 320px;
+  }
+
+
+  .logo-wrapper h2.active, .nav-item h5.active, .down-icon.active {
+    display:  flex;
+    opacity: 1;
+    transition: all ease-in .6s;
+    animation: roll 0.3s ease-in-out;
+  }
+  
+
+  .nav-item h5.active {
+    margin:10px 25px;
+    font-size: 12px;
+  }
+  
+  .nav-menu {
+    margin-top: 35px;
+    transition: all ease-in .6s;
+  }
+
+  .nav-item {
+    align-items: center;
+    height: 50px;
+    padding:  0 15px;
+    transition: all ease-in .3s;
+  }
+
+  .nav-menu ul {
+    backdrop-filter: blur(30px) saturate(2);
+    -webkit-backdrop-filter: blur(30px) saturate(2);
+    transition: 2.2s cubic-bezier(.36,-0.01,0,.77);
+    margin-top: 50px;
+  }
+
+  .recent-transaction-wrapper {
+    margin-left: 20px;
+  }
+
+
+}
+
+@media (min-width:600px) and (max-width:835px) {
+  .header-wrapper {
+    height: 50px;
+    width: 95%;
+  }
+
+  .mob-view-menu {
+    top: 10% !important;
+  }
+
+  .heading {
+    font-size: 16px;
+  }
+
+  .header-items {
+    gap: 8px;
+  }
+
+  .search-bar-wrap {
+    height: 25px;
+  }
+
+  .profile-wrap {
+    max-width: 35px;
+  max-height: 35px;
+  }
+
+  .logo-wrapper h2, .nav-item h5, .down-icon
+  {
+    opacity: 0;
+    display:none;
+  }
+
+  .nav-wrapper {
+    position: fixed;
+    width: 50px;
+    z-index: 111;
+    animation: roll 0.4s ease-in-out;
+    transition: all ease-in-out 0.3s;
+  }
+
+
+  .nav-wrapper.active {
+    width: 220px;
+  }
+
+  .logo-wrapper {
+   
+    margin-left: 0;
+  }
+
+
+  .nav-icon {
+    margin-right: 0;
+    font-size: 18px;
+  }
+
+  .dashboard-wrapper {
+    width: 95%;
+    transform: translate(5%, 7%);
+  }
+
+  .search-bar-wrap input{
+    font-size: 12px;
+  }
+
+  .icon {
+    font-size: 15px;
+  }
+
+  .search-bar-wrap {
+    font-size: 25px;
+  }
+
+  .mob-view-menu {
+    display: flex;
+  }
+
+  .card-wrapper {
+    height: 85px;
+  }
+
+
+  .price img {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .margin-30 {
+    margin-left: 0 !important;
+  }
+
+  .profit-list-item {
+    margin: 10px 12px;
+  }
+
+  
+
+  .recent-transaction-wrapper, .assets-wrapper {
+    margin-left: 20px !important;
+  }
+
+
+  .card-icon-body {
+    width: 36px;
+    height: 36px;
+  }
+
+  .card-icon {
+    font-size: 18px;
+  }
+
+  .card-text-wrap h4 {
+    font-size: 8px;
+  }
+
+  .card-text-wrap h2 {
+    font-size: 17px;
+  }
+
+  .graph-heading h4, 
+  .transaction-heading-wrapper h4,
+  .chart-heading h4   {
+    font-size: 13px;
+  }
+
+  .transaction-information-wrap h3 {
+    font-size: 12px;
+  }
+
+  .transaction-heading-wrapper h5,
+  .transaction-amt h4,
+  .chart-subheading h5,
+  .chart-item h4,
+h6,
+.price span {
+    font-size: 11px;
+  }
+
+  .list-image-wrap {
+    width: 30px;
+    height: 30px;
+  }
+
+  .list-image-wrap img{
+    width: 25px;
+    height: 25px;
+  }
+
+  .chart-subheading {
+    margin-bottom: 12px;
+  }
+
+  .transaction-information-wrap h5 {
+    font-size: 10px;
+  }
+
+  .card-text-wrap h2 {
+    font-size: 15px;
+  }
+
+
+  .trend-chart-wrap,
+  .profit-wrap,
+  .assets-wrapper {
+    height: 320px;
+  }
+
+
+  .logo-wrapper h2.active, .nav-item h5.active, .down-icon.active {
+    opacity: 1;
+    display: flex !important;
+    align-items: center;
+    transition: all ease-in .6s;
+    animation: roll 0.3s ease-in-out;
+  }
+  
+
+  .nav-item h5.active {
+    margin:10px 25px;
+    font-size: 12px;
+  }
+  
+  .nav-menu {
+    margin-top: 35px;
+    transition: all ease-in .3s;
+  }
+
+  .nav-item {
+    align-items: center;
+    height: 50px;
+    padding:  0 15px;
+    transition: all ease-in .3s;
+  }
+
+  .nav-menu ul {
+    margin-top: 50px;
+    backdrop-filter: blur(30px) saturate(2);
+    -webkit-backdrop-filter: blur(30px) saturate(2);
+    transition: 2.2s cubic-bezier(.36,-0.01,0,.77);
+  }
+
+  .asset-icon {
+    font-size: 20px;
+  }
+
+  .assets-information h5, .assets-amt h5 {
+    font-size: 12px;
+  }
+
+  .nav-item-dropdown {
+    font-size: 12px;
+  }
+
+  
+}
+
+@media screen and (max-width:599px) {
+  .header-wrapper {
+    height: 50px;
+  }
+
+  .heading {
+    font-size: 16px;
+  }
+
+  .header-items {
+    gap: 8px;
+  }
+
+
+  .profile-wrap {
+    max-width: 35px;
+  max-height: 35px;
+  }
+
+  .logo-wrapper h2, .nav-item h5, .down-icon
+  {
+    opacity: 0;
+    display: none;
+  }
+
+  .nav-wrapper {
+    position: fixed;
+    width: auto;
+    z-index: 111;
+    
+    transition: all ease-in-out 0.3s;
+  }
+
+  .logo-wrapper {
+   
+    margin-left: 0;
+  }
+
+  .nav-wrapper.active {
+    width: 220px;
+  }
+
+
+  .nav-icon {
+    margin-right: 0;
+  }
+
+  .mob-view-menu {
+    top: 12%;
+  }
+
+  .dashboard-wrapper {
+    width: 95%;
+    transform: translate(9%, 3%);
+  }
+
+  .header-wrapper {
+    width: 92%;
+  }
+
+  .mob-view-menu {
+    display: flex;
+  }
+
+  .card-wrapper {
+    height: 85px;
+  }
+
+  .card-icon-body {
+    width: 36px;
+    height: 36px;
+  }
+
+  .card-icon {
+    font-size: 18px;
+  }
+
+  .card-text-wrap h4 {
+    font-size: 11px;
+  }
+
+  .card-text-wrap h2 {
+    font-size: 22px;
+  }
+
+  .graph-heading h4, 
+  .transaction-heading-wrapper h4,
+  .transaction-information-wrap h3,
+  .chart-heading h4   {
+    font-size: 14px;
+  }
+
+  .transaction-heading-wrapper h5,
+  .transaction-amt h4,
+  .chart-subheading h5,
+  .chart-item h4,
+h6,
+.price span {
+    font-size: 12px;
+  }
+
+  .list-image-wrap {
+    width: 38px;
+    height: 38px;
+  }
+
+  .list-image-wrap img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .transaction-information-wrap h5 {
+    font-size: 10px;
+  }
+
+  .trend-chart-wrap,
+  .profit-wrap {
+    height: 320px;
+  }
+
+
+  .logo-wrapper h2.active, .nav-item h5.active, .down-icon.active {
+    opacity: 1;
+    display: flex !important;
+    align-items: center;
+    transition: all ease-in .6s;
+    animation: roll 0.3s ease-in-out;
+  }
+  
+
+  .nav-item h5.active {
+    margin:10px 25px;
+    font-size: 12px;
+  }
+  
+  .nav-menu {
+    margin-top: 20px;
+    transition: all ease-in .3s;
+  }
+
+  .nav-item {
+    align-items: center;
+    height: 50px;
+    padding: 0px 12px;
+    transition: all ease-in .3s;
+  }
+
+  .nav-menu ul {
+    margin-top: 40px;
+    backdrop-filter: blur(30px) saturate(2);
+    -webkit-backdrop-filter: blur(30px) saturate(2);
+    transition: 2.2s cubic-bezier(.36,-0.01,0,.77);
+  }
+
+  .search-bar-wrap  {
+    display: none;
+  }
+
+  .mob-view-menu {
+    top: 12%;
+  }
+
+  .cards-section-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-text-wrap h4 {
+    font-size: 8px;
+  }
+  
+  .card-text-wrap h2  {
+    font-size: 18px;
+  }
+
+  .card-text-wrap {
+    width: 80%;
+  }
+
+  .graph-transaction-wrapper {
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .graph-wrapper {
+    width: 86%;
+    margin-bottom: 20px;
+  }
+
+  .card-icon-body {
+    margin-left: 5px;
+  }
+
+  .recent-transaction-wrapper {
+    width: 86%;
+    margin-left:  0;
+  }
+  
+  .main-chart-wrapper {
+    flex-direction: column;
+  }
+
+  .trend-chart-wrap {
+    width: 86%;
+    margin-bottom: 20px;
+  }
+
+  .profit-wrap {
+    width: 86%;
+    margin-left: 0;
+  }
+
+  .chart-subheading {
+    margin-bottom: 20px;
+  }
+
+  .profit-head {
+    margin-bottom: 12px;
+  }
+  
+  .profit-head h2 {
+    font-size: 16px;
+  }
+
+  .profit-list-item {
+   
+  }
+
+  .assets-wrapper {
+    width: 86%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0 !important;
+  }
+
+  .nav-item-dropdown {
+    font-size: 12px;
+  }
+  
+}
+
+
+/* very small mobiles  */
+
+@media screen and (max-width:321px) {
+  .header-wrapper {
+    height: 50px;
+  }
+
+  .heading {
+    font-size: 16px;
+  }
+
+  .header-items {
+    gap: 8px;
+  }
+
+
+  .profile-wrap {
+    max-width: 35px;
+  max-height: 35px;
+  }
+
+  .logo-wrapper h2, .nav-item h5, .down-icon
+  {
+    opacity: 0;
+    display: none;
+  }
+
+  .nav-wrapper {
+    position: fixed;
+    width: 50px;
+    z-index: 111;
+    animation: roll 0.4s ease-in-out;
+    transition: all ease-in-out 0.4s;
+  }
+
+  .logo-wrapper {
+   
+    margin-left: 0;
+  }
+
+
+  .nav-icon {
+    margin-right: 0;
+  }
+
+  .mob-view-menu {
+    top: 12%;
+  }
+
+  .dashboard-wrapper {
+    width: 95%;
+    transform: translate(9%, 3%);
+  }
+
+  .header-wrapper {
+    width: 92%;
+  }
+
+  .mob-view-menu {
+    display: flex;
+  }
+
+  .card-wrapper {
+    height: 85px;
+  }
+
+  .card-icon-body {
+    width: 36px;
+    height: 36px;
+  }
+
+  .card-icon {
+    font-size: 18px;
+  }
+
+  .card-text-wrap h4 {
+    font-size: 11px;
+  }
+
+  .card-text-wrap h2 {
+    font-size: 22px;
+  }
+
+  .graph-heading h4, 
+  .transaction-heading-wrapper h4,
+  .transaction-information-wrap h3,
+  .chart-heading h4   {
+    font-size: 14px;
+  }
+
+  .transaction-heading-wrapper h5,
+  .transaction-amt h4,
+  .chart-subheading h5,
+  .chart-item h4,
+h6,
+.price span {
+    font-size: 12px;
+  }
+
+  .list-image-wrap {
+    width: 38px;
+    height: 38px;
+  }
+
+  .list-image-wrap img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .transaction-information-wrap h5 {
+    font-size: 10px;
+  }
+
+  .trend-chart-wrap,
+  .profit-wrap {
+    height: 320px;
+  }
+
+
+  .logo-wrapper h2.active, .nav-item h5.active, .down-icon.active {
+    display:  flex;
+    transition: all ease-in .3s;
+  }
+  
+
+  .nav-item h5.active {
+    margin:10px 25px;
+    font-size: 12px;
+  }
+  
+  .nav-menu {
+    margin-top: 20px;
+    transition: all ease-in .3s;
+  }
+
+  .nav-item {
+    align-items: center;
+    height: 50px;
+    padding: 0px 12px;
+    transition: all ease-in .3s;
+  }
+
+  .nav-menu ul {
+    margin-top: 0px;
+    backdrop-filter: blur(30px) saturate(2);
+    -webkit-backdrop-filter: blur(30px) saturate(2);
+    transition: 2.2s cubic-bezier(.36,-0.01,0,.77);
+  }
+
+  .search-bar-wrap  {
+    display: none;
+  }
+
+  .mob-view-menu {
+    top: 12%;
+  }
+
+  .cards-section-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-text-wrap h4 {
+    font-size: 8px;
+  }
+  
+  .card-text-wrap h2  {
+    font-size: 18px;
+  }
+
+  .card-text-wrap {
+    width: 80%;
+  }
+
+  .graph-transaction-wrapper {
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .graph-wrapper {
+    width: 86%;
+    margin-bottom: 20px;
+  }
+
+  .card-icon-body {
+    margin-left: 5px;
+  }
+
+  .recent-transaction-wrapper {
+    width: 86%;
+    margin-left:  0;
+  }
+  
+  .main-chart-wrapper {
+    flex-direction: column;
+  }
+
+  .trend-chart-wrap {
+    width: 86%;
+    margin-bottom: 20px;
+  }
+
+  .profit-wrap {
+    width: 86%;
+    margin-left: 0;
+  }
+
+  .chart-subheading {
+    margin-bottom: 20px;
+  }
+
+  .profit-head {
+    margin-bottom: 12px;
+  }
+  
+  .profit-head h2 {
+    font-size: 16px;
+  }
+
+  .profit-list-item {
+   
+  }
+
+  .assets-wrapper {
+    width: 86%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0 !important;
+  }
+
+  .logo-wrapper {
+    margin-top: 20px;
+  }
+
+  .nav-item {
+    height: 40px;
+  }
+  
+  .nav-menu ul {
+    margin-top: 30px;
+  }
+
+  .nav-item-dropdown {
+    font-size: 12px;
+  }
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate3d(-330deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotate3d(-360deg);
+    opacity: 1;
+  }
+}
